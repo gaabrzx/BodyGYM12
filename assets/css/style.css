@@ -1,0 +1,708 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Source+Code+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header .container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 96vh;
+  min-height: 800px;
+  padding: 40px 2%;
+  background: url(../img/pexels-leon-ardho-1552249.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .menu {
+  width: 100%;
+  height: 100px;
+  background: #101010;
+  border-radius: 20px;
+  position: relative;
+  top: -20px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 5px #a736ea;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+}
+
+.desktop-menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.desktop-menu ul li {
+  padding: 0 20px;
+}
+
+.desktop-menu ul li a {
+  line-height: 100px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.3s all;
+}
+
+.desktop-menu ul li a:hover {
+  color: #a736ea;
+  text-decoration: underline;
+}
+
+/* Menu responsivel mobile */
+
+header .mobile-menu {
+  display: none;
+}
+
+header .mobile-menu i {
+  display: none;
+  color: #fff;
+  font-size: 2.1rem;
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+header .mobile-menu ul {
+  opacity: 0;
+  transition: 1s;
+  background: #101010;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 175px;
+  border-radius: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+header .mobile-menu ul:hover {
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
+header .mobile-menu ul li {
+  padding: 8px 0;
+  transition: 0.4s;
+}
+
+header .mobile-menu ul li:hover {
+  background: #a736ea;
+  border-radius: 20px;
+}
+
+header .mobile-menu ul li a {
+  color: #fff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header .logo {
+  width: 200px;
+  height: 100px;
+  background: url(../img/Logotipo\ Bebida\ Energética\ Raio\ Amarelo\ Preto\ Branco.svg)
+    no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  top: 0;
+}
+
+header .call {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 0 5px #a736ea;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+header .call .box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #101010;
+}
+
+header .call .box h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 8px;
+}
+
+header .call .box span {
+  color: #a736ea;
+}
+
+header .chamada1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .chamada1 h3 {
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  text-shadow: 5px 8px 0 #48086d;
+}
+
+header .chamada1 span {
+  color: #a736ea;
+}
+
+header .chamada1 p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 30px;
+}
+
+header .chamada1 button {
+  padding: 10px 20px;
+  background: #a736ea;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+header .chamada1 button:hover {
+  background: #a200ff;
+}
+
+#structure {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/pexels-leon-ardho-1552252.jpg) no-repeat;
+}
+
+main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .title h1 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: #a736ea;
+}
+
+main .title p {
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+}
+
+#structure .container .text {
+  width: 100%;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+#structure .container .text h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+#structure .container .text span {
+  color: #a736ea;
+}
+
+#structure .container .text p {
+  margin-top: 45px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#structure .container .call {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#structure .container .call .box {
+  width: 25%;
+  height: 300px;
+  background: #101010;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #a736ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.9s all;
+}
+
+#structure .container .call .box:hover {
+  transform: scale(1.1);
+}
+
+#structure .container .call .box i {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fff;
+  background: #a736ea;
+  border-radius: 50%;
+}
+
+#structure .container .call .box h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#structure .container .call .box button {
+  padding: 5px 25px;
+  margin-top: 20px;
+  background: #a736ea;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+#structure .container .call .box button:hover {
+  background: #a200ff;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/pexels-pixabay-260447.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#contact .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+#contact .container .title h1 {
+  font-size: 2.5rem;
+  color: #a736ea;
+}
+
+#contact .container .title p {
+  letter-spacing: 5px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+#contact .container .content {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  margin-top: 30px;
+}
+
+#contact .container .content .left {
+  width: 50%;
+  height: 60vh;
+}
+
+#contact .container .content .left form {
+  width: 85%;
+  height: 60vh;
+  background: #101010;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .container .content .left form h1 {
+  width: 100%;
+  height: 60px;
+  background: #a736ea;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px 30px 0 0;
+}
+
+#contact .container .content .left form input[type="text"],
+#contact .container .content .left form input[type="email"],
+#contact .container .content .left form input[type="date"] {
+  width: 80%;
+  height: 40px;
+  margin-top: 35px;
+  padding: 0 30px;
+  border: none;
+  outline: none;
+  background: #fff;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+
+#contact .container .content .left form h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
+
+#contact .container .content .left form input[type="submit"] {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  background: #a736ea;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+#contact .container .content .left form input[type="submit"]:hover {
+  background: #a200ff;
+}
+
+#contact .container .content .right {
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#contact .container .content .right h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+#contact .container .content .right h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+footer .container {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .box {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container .box i {
+  padding: 0 20px;
+  font-size: 1.8rem;
+  color: #a736ea;
+}
+
+footer .container .box p {
+  font-size: 1rem;
+  color: #101010;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 830px) {
+  header .container {
+    justify-content: center;
+  }
+
+  header .chamada1 h3 {
+    font-size: 3.5rem;
+  }
+
+  header .chamada1 p {
+    font-size: 1.1rem;
+  }
+
+  header .chamada1 button {
+    font-size: 0.9rem;
+  }
+
+  #about .container .content .text {
+    width: 100%;
+    margin-top: 120px;
+    padding: 0 20px;
+  }
+
+  #contact .container .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact .container .content .left {
+    width: 80%;
+  }
+
+  #contact .container .content .left form {
+    width: 100%;
+    height: 48vh;
+  }
+
+  #contact .container .content .left form h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+
+  #contact .container .content .right {
+    height: 5vh;
+    position: relative;
+    top: -100px;
+  }
+
+  #contact .container .content .right h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  #contact .container .content .right h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  footer .container .box i {
+    padding: 0 8px;
+    font-size: 1.5rem;
+  }
+
+  footer .container .box p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav.desktop-menu {
+    display: none;
+  }
+
+  header nav.mobile-menu {
+    display: block;
+  }
+
+  header nav.mobile-menu i {
+    display: block;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  header .call .box h1 {
+    font-size: 0.8rem;
+  }
+
+  header .chamada1 h3 {
+    font-size: 2.2rem;
+  }
+
+  main .title h1 {
+    font-size: 2rem;
+  }
+
+  main .title p {
+    font-size: 0.8rem;
+  }
+
+  #structure .container .text {
+    margin-top: 10vh;
+  }
+
+  #structure .container .text h1 {
+    font-size: 1.6rem;
+  }
+
+  #structure .container .text p {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+
+  #structure .container .call {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  #structure .container .call .box {
+    width: 80%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  #structure .container .call .box i {
+    font-size: 1.8rem;
+    width: 20%;
+    height: 115px;
+    border-radius: 5px;
+    margin-right: 160px;
+  }
+
+  #structure .container .call .box h2 {
+    padding: 0 20px;
+    font-size: 1rem;
+    position: absolute;
+  }
+
+  #structure .container .call .box button {
+    font-size: 0.8rem;
+    padding: 5px 15px;
+  }
+
+  #about .container .title h1 {
+    font-size: 2rem;
+  }
+
+  #about .container .title p {
+    font-size: 0.8rem;
+  }
+
+  #about .container .content {
+    margin-top: 10vh;
+  }
+
+  #about .container .content .text h1 {
+    font-size: 2.2rem;
+  }
+
+  #about .container .content .text p {
+    font-size: 1rem;
+  }
+
+  #contact .container .title h1 {
+    font-size: 2rem;
+  }
+
+  #contact .container .title p {
+    font-size: 0.8rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+  }
+
+  footer .container .box {
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  header .chamada1 h3 {
+    font-size: 2rem;
+    margin-top: 150px;
+  }
+
+  header .chamada1 p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  #structure .container .text p {
+    font-size: 0.9rem;
+  }
+
+  #structure .container .call {
+    height: 250px;
+  }
+
+  #structure .container .call .box i {
+    font-size: 1.5rem;
+    height: 100px;
+  }
+
+  #structure .container .call .box h2 {
+    font-size: 0.8rem;
+  }
+
+  #structure .container .call .box button {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  #contact .container .content .left form h1 {
+    font-size: 1rem;
+  }
+
+  #contact .container .content .left form input[type="text"],
+  #contact .container .content .left form input[type="email"],
+  #contact .container .content .left form input[type="date"] {
+    font-size: 0.9rem;
+  }
+
+  #contact .container .content .left form h2 {
+    font-size: 0.9rem;
+  }
+
+  #contact .container .content .right h1 {
+    font-size: 1.2rem;
+  }
+
+  #contact .container .content .right h2 {
+    font-size: 0.9rem;
+  }
+}
