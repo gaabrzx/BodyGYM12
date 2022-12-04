@@ -228,7 +228,7 @@ main .title p {
 #structure .container .text {
   width: 100%;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 5vh;
 }
 
 #structure .container .text h1 {
@@ -706,3 +706,5 @@ footer .container .box p {
     font-size: 0.9rem;
   }
 }
+
+/* EU SOU FODA */
