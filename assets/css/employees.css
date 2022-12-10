@@ -248,6 +248,15 @@ header .call .box button:hover {
     font-size: 1rem;
     margin-top: 20px;
   }
+
+  footer .container .box i {
+    padding: 0 8px;
+    font-size: 1.5rem;
+  }
+
+  footer .container .box p {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -273,6 +282,101 @@ header .call .box button:hover {
   header .chamada1 h3 {
     font-size: 2.2rem;
   }
+
+  main .title h1 {
+    font-size: 2rem;
+  }
+
+  main .title p {
+    font-size: 0.8rem;
+  }
+
+  #structure .container .text {
+    margin-top: 10vh;
+  }
+
+  #structure .container .text h1 {
+    font-size: 1.6rem;
+  }
+
+  #structure .container .text p {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+
+  #structure .container .call {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  #structure .container .call .box {
+    width: 80%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  #structure .container .call .box i {
+    font-size: 1.8rem;
+    width: 20%;
+    height: 115px;
+    border-radius: 5px;
+    margin-right: 160px;
+  }
+
+  #structure .container .call .box h2 {
+    padding: 0 20px;
+    font-size: 1rem;
+    position: absolute;
+  }
+
+  #structure .container .call .box button {
+    font-size: 0.8rem;
+    padding: 5px 15px;
+  }
+
+  #about .container .title h1 {
+    font-size: 2rem;
+  }
+
+  #about .container .title p {
+    font-size: 0.8rem;
+  }
+
+  #about .container .content {
+    margin-top: 10vh;
+  }
+
+  #about .container .content .text h1 {
+    font-size: 2.2rem;
+  }
+
+  #about .container .content .text p {
+    font-size: 1rem;
+  }
+
+  #contact .container .title h1 {
+    font-size: 2rem;
+  }
+
+  #contact .container .title p {
+    font-size: 0.8rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+  }
+
+  footer .container .box {
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: none;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -286,7 +390,11 @@ header .call .box button:hover {
     text-align: center;
   }
 
-  header .call {
+  #structure .container .text p {
+    font-size: 0.9rem;
+  }
+
+  header .container .call {
     height: 250px;
   }
 
@@ -302,5 +410,27 @@ header .call .box button:hover {
   header .call .box button {
     font-size: 0.7rem;
     padding: 5px 10px;
+  }
+
+  #contact .container .content .left form h1 {
+    font-size: 1rem;
+  }
+
+  #contact .container .content .left form input[type="text"],
+  #contact .container .content .left form input[type="email"],
+  #contact .container .content .left form input[type="date"] {
+    font-size: 0.9rem;
+  }
+
+  #contact .container .content .left form h2 {
+    font-size: 0.9rem;
+  }
+
+  #contact .container .content .right h1 {
+    font-size: 1.2rem;
+  }
+
+  #contact .container .content .right h2 {
+    font-size: 0.9rem;
   }
 }
