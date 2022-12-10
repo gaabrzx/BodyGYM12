@@ -189,3 +189,118 @@ header .call .box button {
 header .call .box button:hover {
   background: #a200ff;
 }
+
+@media screen and (max-width: 830px) {
+  header .container {
+    justify-content: center;
+  }
+
+  header .chamada1 h3 {
+    font-size: 3.5rem;
+  }
+
+  header .chamada1 p {
+    font-size: 1.1rem;
+  }
+
+  header .chamada1 button {
+    font-size: 0.9rem;
+  }
+
+  #about .container .content .text {
+    width: 100%;
+    margin-top: 120px;
+    padding: 0 20px;
+  }
+
+  #contact .container .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact .container .content .left {
+    width: 80%;
+  }
+
+  #contact .container .content .left form {
+    width: 100%;
+    height: 48vh;
+  }
+
+  #contact .container .content .left form h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+
+  #contact .container .content .right {
+    height: 5vh;
+    position: relative;
+    top: -100px;
+  }
+
+  #contact .container .content .right h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  #contact .container .content .right h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav.desktop-menu {
+    display: none;
+  }
+
+  header nav.mobile-menu {
+    display: block;
+  }
+
+  header nav.mobile-menu i {
+    display: block;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  header .call .box h1 {
+    font-size: 0.8rem;
+  }
+
+  header .chamada1 h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  header .chamada1 h3 {
+    font-size: 2rem;
+    margin-top: 150px;
+  }
+
+  header .chamada1 p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  header .call {
+    height: 250px;
+  }
+
+  header .call .box i {
+    font-size: 1.5rem;
+    height: 100px;
+  }
+
+  header .call .box h2 {
+    font-size: 0.8rem;
+  }
+
+  header .call .box button {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+}
