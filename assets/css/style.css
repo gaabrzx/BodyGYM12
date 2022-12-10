@@ -22,7 +22,8 @@ header {
   height: 96vh;
   min-height: 800px;
   padding: 40px 2%;
-  background: url(../img/pexels-leon-ardho-1552249.jpg) no-repeat;
+  background: black;
+  background-blend-mode: dar;
   background-position: center;
   background-size: cover;
 }
@@ -314,7 +315,7 @@ main .title p {
 #contact {
   width: 100%;
   height: 100vh;
-  background: url(../img/pexels-scott-webb-136404.jpg) no-repeat;
+  background: black;
   background-blend-mode: darken;
   background-size: cover;
   background-position: center;
@@ -422,7 +423,7 @@ main .title p {
 }
 
 #contact .container .content .right h1 {
-  color: #fff;
+  color: #a736ea;
   font-size: 2.5rem;
   font-weight: 400;
   margin-top: 80px;
